@@ -229,14 +229,21 @@ h6{
     display: inline-block;
     float: right;
     margin-top: 0;
-    background-color: rgb(200,200,200,0.5);
+    background-color: rgba(31, 70, 226);
     padding: 0 2px;
     border-radius: 3px;
 }
 
-#costo, #numquinielas{
+#costo{
+    color: rgba(31, 70, 226);
+    background-color: rgb(31, 70, 226);
+    display:inline;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+#numquinielas{
     color: rgba(11, 15, 0, 0.753);
-    background-color: rgb(200,200,200,0.5);
+    background-color: rgba(90, 93, 97, 0.342);
     display:inline;
     padding: 0 2px;
     border-radius: 3px;
