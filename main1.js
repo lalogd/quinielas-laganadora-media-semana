@@ -4,7 +4,7 @@ let quantStorage = "quantity";
 let resultStorage = "results";
 let aliasStorage = "alias";
 
-let price = 20;  //replace *20
+let price = 0;  //replace *0
 let tel = "525521793347";
 let nPartidos = 7;
 let partidoSup = false;
@@ -365,7 +365,7 @@ function send(){				//Envia la quiniela al whatsapp
         save();
     if (quantity > 0){
     let whatsapptext = res.join("%20%20")
-    const quinbara = "*Quiniela de $15 pesos*%0A%0A";
+    const quinbara = "**%0A%0A";
     whatsapptext = encodeURI(localStorage.getItem(resultStorage));
     whatsapptext = whatsapptext.split('*').join('%0D').replace(/#/g,"");
     window.location.href = "https://wa.me/"+tel+"?text="+quinbara+whatsapptext;}
