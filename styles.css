@@ -7,7 +7,7 @@
 
 .quiniela{
     margin: auto;
-    background-image: url("jornadaprueba1.jpg");
+    background-image: url("j1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     max-width: 400px;
@@ -266,4 +266,8 @@ h6{
     font-weight: bolder;
     margin: auto;
     text-shadow: 1px 1px 5px black;
+}
+
+.aux2{
+    height: 5.6%;
 }
