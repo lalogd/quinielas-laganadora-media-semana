@@ -1,4 +1,4 @@
-let res = ['_','_','_','_','_','_','_',];
+let res = ['_','_','_','_','_','_','_','_'];
 
 let quantStorage = "quantity";
 let resultStorage = "results";
@@ -6,7 +6,7 @@ let aliasStorage = "alias";
 
 let price = 0;  //replace *0
 let tel = "527421200205";
-let nPartidos = 7;
+let nPartidos = 8;
 let partidoSup = false;
 
 let quantity = localStorage.getItem(quantStorage);
@@ -226,7 +226,7 @@ function save(){				//Se añade la quiniela actual a la lista
 }
 
 function clean(){				//Boton para limpiar la quinela
-    res = ['_','_','_','_','_','_','_']
+    res = ['_','_','_','_','_','_','_','_']
     let container = document.getElementById("text");
     container.innerHTML = res.join("\xa0\xa0");
     spans = document.querySelectorAll(".quiniela span");
